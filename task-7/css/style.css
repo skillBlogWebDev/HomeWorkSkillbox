@@ -1,0 +1,134 @@
+/* fonts */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local('MontserratRegular'), local('Montserrat-Regular'),
+   url(../fonts/montserrat-regular-webfont.woff) format('woff'),
+   url(../fonts/montserrat-regular-webfont.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    font-style: normal;
+    font-weight: 600;
+    src: local('MontserratSemibold'), local('Montserrat-Semibold'),
+     url(../fonts/montserrat-semibold-webfont.woff) format('woff'),
+     url(../fonts/montserrat-semibold-webfont.woff2) format('woff2')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+    src: local('MontserratBold'), local('Montserrat-Bold'),
+     url(../fonts/montserrat-bold-webfont.woff) format('woff'),
+     url(../fonts/montserrat-bold-webfont.woff2) format('woff2')
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    font-style: normal;
+    font-weight: 800;
+    src: local('MontserratExtrabold'), local('Montserrat-Extrabold'),
+     url(../fonts/montserrat-extrabold-webfont.woff) format('woff'),
+     url(../fonts/montserrat-extrabold-webfont.woff2) format('woff2')
+}
+
+/* common specification */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --black-color: #333333;
+  --orange-color: #FF9900;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.site-heding {
+  font-weight: 400;
+  font-size: 48px;
+  color: var(--black-color);
+}
+
+.site-btn {
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  background: var(--orange-color);
+  color: var(--white-color);
+}
+
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* header */
+.header {
+  width: 100%;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+}
+
+.header__container {
+  height: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 85px;
+}
+
+.nav__item:last-child {
+  margin-right: 70px;
+}
+
+.nav__link {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--black-color);
+}
+
+.search {
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  margin-right: 12px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+
