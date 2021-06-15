@@ -1,0 +1,5 @@
+@media (max-width: 1190px) {
+  .footer__text {
+    display: none;
+  }
+}
