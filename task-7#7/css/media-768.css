@@ -1,0 +1,52 @@
+@media (max-width: 900px) {
+  .header__container {
+    height: 68px;
+  }
+
+  .hero {
+    height: 663px;
+  }
+
+  .swiper-slide {
+    padding-top: 163px;
+    padding-left: 40px;
+  }
+
+  .hero-content__heading {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .hero-content__text {
+    font-size: 18px;
+    max-width: 588px;
+  }
+
+  .nav {
+    height: 731px;
+  }
+
+  .about-content__left {
+    min-height: 648px;
+  }
+
+  .about-left__text {
+    margin: 0;
+    max-width: 366px;
+  }
+
+  .about-left__inner {
+    padding: 35px 38px 33px 40px;
+  }
+
+  .about-right__item {
+    padding: 37px 43px 35px 298px;
+    padding-left: 170px;
+    background-size: 114px 99px;
+    background-position: left 28px top 70px;
+  }
+
+  .about-right__item:first-child {
+    background-position: left 38px top 70px;
+  }
+}
