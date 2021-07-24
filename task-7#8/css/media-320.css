@@ -1,0 +1,135 @@
+@media (max-width: 590px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .swiper-slide {
+    padding-top: 100px;
+  }
+
+  .footer-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 475px) {
+  .logo__img {
+    width: 114px;
+  }
+
+  .nav {
+    left: -160vw;
+    height: 376px;
+    padding-top: 23px;
+    padding-left: 15px;
+  }
+
+  .menu-close {
+    margin-bottom: 32px;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  .menu-close {
+    width: 30px;
+  }
+
+  .menu-close::before, .menu-close::after {
+    left: 0;
+  }
+
+  .about-left__inner {
+    flex-direction: column;
+  }
+
+  .work__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .work-left__btns {
+    flex-direction: column;
+  }
+
+  .about-right__item {
+    padding: 0;
+  }
+  .hero {
+    height: 308px;
+  }
+
+  .hero-content__heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .hero-content__text {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    margin-bottom: 36px;
+  }
+
+  .hero-content__btn {
+    font-size: 12px;
+    padding: 13px 29px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    padding: 60px 22px 0;
+  }
+
+  .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 10px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+
+  .about {
+    padding-top: 63px;
+  }
+
+  .about__heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .about__text {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+
+  .about-content__left {
+    background-size: 290px 200px;
+    padding-top: 208px;
+    min-height: auto;
+    background-position: top;
+  }
+
+  .about-left__inner {
+    background: none;
+    padding: 0;
+  }
+
+  .about-left__text {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 100%;
+    margin-bottom: 9px;
+    color: var(--black-color);
+  }
+
+  .about-left__btn {
+    font-size: 12px;
+    align-self: start;
+    padding: 11px 41px;
+    color: var(--orange-color);
+  }
+}

@@ -201,7 +201,7 @@ tr td {
   background-repeat: no-repeat;
   background-position: top center;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   padding-top: 200px;
   padding-left: 50px;
   width: 480px;
