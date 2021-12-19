@@ -1,0 +1,317 @@
+@media (max-width: 590px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .swiper-slide {
+    padding-top: 100px;
+  }
+
+  .hero-content {
+    top: 100px;
+  }
+
+  .footer-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 475px) {
+  .site-heading {
+    font-size: 24px;
+  }
+
+  .logo__img {
+    width: 114px;
+  }
+
+  .nav {
+    left: -160vw;
+    height: 376px;
+    padding-top: 23px;
+    padding-left: 15px;
+  }
+
+  .menu-close {
+    margin-bottom: 32px;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  .menu-close {
+    width: 30px;
+  }
+
+  .menu-close::before, .menu-close::after {
+    left: 0;
+  }
+
+  .about-left__inner {
+    flex-direction: column;
+  }
+
+  .work__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .about-right__item {
+    padding: 0;
+  }
+  .hero {
+    height: 308px;
+  }
+
+  .hero-content__heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .hero-content__text {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    margin-bottom: 36px;
+  }
+
+  .hero-content__btn {
+    font-size: 12px;
+    padding: 13px 29px;
+  }
+
+  .hero-content {
+    text-align: center;
+    top: 60px;
+    left: 22px;
+  }
+
+  .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 10px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+
+  .about {
+    padding-top: 63px;
+  }
+
+  .about__heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .about__text {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+
+  .about-content__left {
+    background-size: 290px 200px;
+    padding-top: 208px;
+    min-height: auto;
+    background-position: top;
+  }
+
+  .about-left__inner {
+    background: none;
+    padding: 0;
+  }
+
+  .about-left__text {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 100%;
+    margin-bottom: 9px;
+    color: var(--black-color);
+  }
+
+  .about-left__btn {
+    font-size: 12px;
+    align-self: start;
+    padding: 11px 41px;
+    color: var(--orange-color);
+  }
+
+  .about-right__item {
+    background-size: 64px 49px;
+    background-position: left top;
+    border: none;
+    padding-top: 62px;
+  }
+
+  .about-right__item:first-child {
+    background-position: left top;
+  }
+
+  .about-right__title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+  }
+
+  .about-right__text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .work {
+    padding-top: 45px;
+  }
+
+  .work__headeing {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .work__btn {
+    font-size: 14px;
+  }
+
+  .work__list {
+    margin-bottom: 8px;
+  }
+
+  .work-right__img {
+    height: 160px;
+  }
+
+  .work-right {
+    margin-bottom: 19px;
+  }
+
+  .work__inner {
+    margin-bottom: 18px;
+  }
+
+  .work-left__title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 14px;
+  }
+
+  .work-left__text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .work-left__btn {
+    font-size: 12px;
+    padding: 13px 34px;
+  }
+
+  .work-left__btn:first-child {
+    margin-right: 0;
+    padding: 13px 44px;
+    margin-right: 8px;
+  }
+
+  .questions {
+    padding-top: 62px;
+    padding-bottom: 60px;
+  }
+
+  .questions__heading {
+    margin: 0;
+    margin-bottom: 17px;
+  }
+
+  .questions__wrapper {
+    padding: 30px 0;
+  }
+
+  .questions__title {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-right: 50px;
+  }
+
+  .accordion-icon {
+    width: 30px;
+    height: 30px;
+    background-size: 18px;
+    top: 42px;
+  }
+
+  .questions__descr {
+    font-size: 14px;
+  }
+
+  .footer {
+    padding-top: 20px;
+  }
+
+  .footer-right {
+    margin-bottom: 22px;
+  }
+
+  .footer__title {
+    font-size: 24px;
+  }
+
+  .form__input::placeholder {
+    font-size: 14px;
+  }
+
+  .form__area::placeholder {
+    font-size: 14px;
+  }
+
+  .form__area {
+    margin-bottom: 25px;
+  }
+
+  .form__inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form__btn {
+    margin-right: 0;
+    align-self: center;
+    font-size: 12px;
+    padding: 14px 29px;
+    margin-bottom: 17px;
+  }
+
+  .form__label {
+    padding-left: 5px;
+  }
+
+  .footer-left {
+    width: 100%;
+    padding-top: 17px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #595959;
+  }
+
+  .footer__logo {
+    text-align: center;
+    margin-bottom: 9px;
+  }
+
+  .footer__logo img {
+    width: 132px;
+  }
+
+  .footer__social {
+    align-self: center;
+  }
+
+  .footer__icon {
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+  }
+
+  .footer__icon:not(:last-child) {
+    margin-right: 16px;
+  }
+}
